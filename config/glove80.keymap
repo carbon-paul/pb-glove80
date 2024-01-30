@@ -336,12 +336,12 @@
 
         layer_Base {
             bindings = <
-&kp ESCAPE      &kp C_BRI_DN  &kp C_BRI_UP         &kp LG(SPACE)   &kp F5                                                                                                                         &kp F6               &kp C_PREV   &kp C_VOLUME_UP     &kp C_VOLUME_DOWN  &kp K_PLAY_PAUSE
-&kp EQUAL       &kp N1        &kp N2               &kp N3          &kp N4           &kp N5                                                                                                &kp N6  &kp N7               &kp N8       &kp N9              &kp N0             &kp EQUAL
-&to 1           &kp Q         &qt LG(W) W          &kp E           &mt LG(R) R      &mt LG(T) T                                                                                           &kp Y   &kp U                &kp I        &kp O               &kp P              &kp SEMICOLON
-&kp BACKSPACE   &lt 4 A       &hml LEFT_CONTROL S  &mt LEFT_GUI D  &mt LC(SPACE) F  &kp G                                                                                                 &kp H   &mt LG(LS(SPACE)) J  &hmr LGUI K  &mt LEFT_CONTROL L  &qt LALT SQT       &kp MINUS
-&kp LEFT_SHIFT  &mt LALT Z    &mt LG(X) X          &mt LG(C) C     &mt LG(V) V      &mt LG(B) B  &kp LEFT_SHIFT  &lower           &magic 2 0        &kp CAPSLOCK  &caps_word   &kp TAB    &kp N   &kp M                &kp COMMA    &kp DOT             &kp FSLH           &kp LG(LA(RIGHT))
-&kp LCTRL       &kp LEFT_ALT  &kp HOME             &kp END         &kp LGUI                      &kp LEFT_SHIFT  &lt 5 BACKSPACE  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 3 ENTER  &kp SPACE          &kp LEFT             &kp DOWN     &kp UP              &kp RIGHT          &kp LG(LA(LEFT))
+&kp ESCAPE      &kp C_BRI_DN  &kp C_BRI_UP         &kp LG(SPACE)   &kp F5                                                                                                                            &kp F6               &kp C_PREV   &kp C_VOLUME_UP     &kp C_VOLUME_DOWN  &kp K_PLAY_PAUSE
+&kp EQUAL       &kp N1        &kp N2               &kp N3          &kp N4           &kp N5                                                                                                   &kp N6  &kp N7               &kp N8       &kp N9              &kp N0             &kp EQUAL
+&to 1           &kp Q         &qt LG(W) W          &kp E           &mt LG(R) R      &mt LG(T) T                                                                                              &kp Y   &kp U                &kp I        &kp O               &kp P              &kp SEMICOLON
+&kp BACKSPACE   &lt 4 A       &hml LEFT_CONTROL S  &mt LEFT_GUI D  &mt LC(SPACE) F  &kp G                                                                                                    &kp H   &mt LG(LS(SPACE)) J  &hmr LGUI K  &mt LEFT_CONTROL L  &qt LALT SQT       &kp MINUS
+&kp LEFT_SHIFT  &mt LALT Z    &mt LG(X) X          &mt LG(C) C     &mt LG(V) V      &mt LG(B) B  &sk LEFT_SHIFT  &lower  &magic 2 0        &kp CAPSLOCK  &caps_word           &sl 3          &kp N   &kp M                &kp COMMA    &kp DOT             &kp FSLH           &kp LG(LA(RIGHT))
+&kp LCTRL       &kp LEFT_ALT  &kp HOME             &kp END         &kp LGUI                      &kp BACKSPACE   &sl 5   &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LG(ENTER) ENTER  &mt TAB SPACE          &kp LEFT             &kp DOWN     &kp UP              &kp RIGHT          &kp LG(LA(LEFT))
             >;
         };
 
