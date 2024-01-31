@@ -120,6 +120,9 @@
 #define KEYS_RIGHT POS_RH_C1R2 POS_RH_C1R3 POS_RH_C1R4 POS_RH_C1R5 POS_RH_C2R1 POS_RH_C2R2 POS_RH_C2R3 POS_RH_C2R4 POS_RH_C2R5 POS_RH_C2R6 POS_RH_C3R1 POS_RH_C3R2 POS_RH_C3R3 POS_RH_C3R4 POS_RH_C3R5 POS_RH_C3R6 POS_RH_C4R1 POS_RH_C4R2 POS_RH_C4R3 POS_RH_C4R4 POS_RH_C4R5 POS_RH_C4R6 POS_RH_C5R1 POS_RH_C5R2 POS_RH_C5R3 POS_RH_C5R4 POS_RH_C5R5 POS_RH_C5R6 POS_RH_C6R1 POS_RH_C6R2 POS_RH_C6R3 POS_RH_C6R4 POS_RH_C6R5 POS_RH_C6R6
 #define THUMBS POS_RH_T1 POS_RH_T2 POS_RH_T3 POS_RH_T4 POS_RH_T5 POS_RH_T6 POS_LH_T1 POS_LH_T2 POS_LH_T3 POS_LH_T4 POS_LH_T5 POS_LH_T6
 
+&lt {
+};
+
 / {
     /* Glove80 system behavior & macros */
 
@@ -347,12 +350,12 @@
 
         layer_Base {
             bindings = <
-&kp ESCAPE            &kp C_BRI_DN  &kp C_BRI_UP         &kp LG(SPACE)    &kp F5                                                                                                                            &kp F6               &kp C_PREV   &kp C_VOLUME_UP      &kp C_VOLUME_DOWN  &kp K_PLAY_PAUSE
+&kp ESCAPE            &kp C_BRI_DN  &kp C_BRI_UP         &kp LG(SPACE)    &kp F5                                                                                                                            &kp F6               &kp C_PREV   &kp C_VOLUME_UP      &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE
 &kp EQUAL             &kp N1        &kp N2               &kp N3           &kp N4           &kp N5                                                                                                   &kp N6  &kp N7               &kp N8       &kp N9               &kp N0             &kp EQUAL
 &to 1                 &kp Q         &ht LG(W) W          &kp E            &ht LG(R) R      &ht LG(T) T                                                                                              &kp Y   &kp U                &kp I        &kp O                &kp P              &kp SEMICOLON
 &mt ESCAPE BACKSPACE  &lt 4 A       &hml LEFT_CONTROL S  &hml LEFT_GUI D  &ht LC(SPACE) F  &kp G                                                                                                    &kp H   &ht LS(LG(SPACE)) J  &hmr LGUI K  &hmr LEFT_CONTROL L  &qt LALT SQT       &kp MINUS
-&kp LEFT_SHIFT        &kp Z         &ht LG(X) X          &ht LG(C) C      &ht LG(V) V      &ht LG(B) B  &sk LEFT_SHIFT  &lower  &magic 2 0        &kp CAPSLOCK  &caps_word           &sl 3          &kp N   &kp M                &kp COMMA    &kp DOT              &kp FSLH           &kp LG(LA(RIGHT))
-&kp LCTRL             &kp LEFT_ALT  &kp HOME             &kp END          &kp LGUI                      &kp BACKSPACE   &sl 5   &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LG(ENTER) ENTER  &qt TAB SPACE          &kp LEFT             &kp DOWN     &kp UP               &kp RIGHT          &kp LG(LA(LEFT))
+&kp LEFT_SHIFT        &kp Z         &ht LG(X) X          &ht LG(C) C      &ht LG(V) V      &ht LG(B) B  &sk LEFT_SHIFT  &lower  &magic 2 0        &kp CAPSLOCK  &caps_word           &sl 3          &kp N   &kp M                &kp COMMA    &kp DOT              &kp FSLH           &trans
+&kp LCTRL             &kp LEFT_ALT  &kp HOME             &kp END          &kp LGUI                      &kp BACKSPACE   &sl 5   &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LG(ENTER) ENTER  &qt TAB SPACE          &kp LEFT             &kp DOWN     &kp UP               &kp RIGHT          &trans
             >;
         };
 
@@ -391,12 +394,12 @@
 
         navigation {
             bindings = <
-&trans  &trans  &trans        &trans            &trans                                                                                            &trans         &trans    &trans             &trans         &trans
-&trans  &trans  &trans        &trans            &trans             &trans                                                           &trans        &trans         &trans    &trans             &trans         &trans
-&trans  &trans  &trans        &kp LC(GRAVE)     &trans             &trans                                                           &trans        &kp PG_UP      &kp UP    &kp K_SCROLL_DOWN  &trans         &trans
-&trans  &trans  &kp LC(LEFT)  &kp LC(TAB)       &kp LC(RIGHT)      &trans                                                           &kp LG(LEFT)  &kp LEFT       &kp DOWN  &kp RIGHT          &kp LG(RIGHT)  &trans
-&trans  &trans  &trans        &kp LG(LEFT)      &kp LG(RIGHT)      &trans  &trans  &trans  &trans  &trans  &trans       &trans      &trans        &kp PAGE_DOWN  &trans    &kp K_SCROLL_UP    &trans         &trans
-&trans  &trans  &trans        &kp LA(LG(LEFT))  &kp LA(LG(RIGHT))          &trans  &trans  &trans  &trans  &kp K_PASTE  &kp K_COPY                &trans         &trans    &trans             &trans         &trans
+&trans  &trans  &trans        &trans            &trans                                                                                            &trans    &trans              &trans                &trans     &trans
+&trans  &trans  &trans        &trans            &trans             &trans                                                           &trans        &trans    &trans              &trans                &trans     &trans
+&trans  &trans  &trans        &kp LC(GRAVE)     &trans             &trans                                                           &trans        &trans    &kp C_AC_SCROLL_UP  &kp C_AC_SCROLL_DOWN  &trans     &trans
+&trans  &trans  &kp LC(LEFT)  &kp LC(TAB)       &kp LC(RIGHT)      &trans                                                           &kp LG(LEFT)  &kp LEFT  &kp DOWN            &kp UP_ARROW          &kp RIGHT  &trans
+&trans  &trans  &trans        &kp LG(LEFT)      &kp LG(RIGHT)      &trans  &trans  &trans  &trans  &trans  &trans       &trans      &trans        &kp HOME  &kp PAGE_DOWN       &kp PG_UP             &kp END    &trans
+&trans  &trans  &trans        &kp LA(LG(LEFT))  &kp LA(LG(RIGHT))          &trans  &trans  &trans  &trans  &kp K_PASTE  &kp K_COPY                &trans    &trans              &trans                &trans     &trans
             >;
         };
 
