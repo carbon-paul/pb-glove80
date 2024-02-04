@@ -311,14 +311,14 @@
 
         switch-tab-left {
             bindings = <&kp LG(LA(LEFT))>;
-            key-positions = <75 76>;
+            key-positions = <59 60>;
             layers = <0>;
             require-prior-idle-ms = <150>;
         };
 
         switch-tab-right {
             bindings = <&kp LG(LA(RIGHT))>;
-            key-positions = <76 77>;
+            key-positions = <60 61>;
             layers = <0>;
             require-prior-idle-ms = <150>;
         };
@@ -338,6 +338,16 @@
         goto-numbers {
             bindings = <&sl 2>;
             key-positions = <37 38>;
+        };
+
+        space_left {
+            bindings = <&kp LC(LEFT)>;
+            key-positions = <48 49>;
+        };
+
+        space_right {
+            bindings = <&kp LC(RIGHT)>;
+            key-positions = <49 50>;
         };
     };
 
@@ -390,12 +400,12 @@
 
         symbols {
             bindings = <
-&trans  &trans         &trans            &trans                &trans                                                                                 &trans           &trans        &trans     &trans     &trans
-&trans  &trans         &trans            &trans                &trans                 &trans                                                  &trans  &trans           &trans        &trans     &trans     &trans
-&trans  &trans         &trans            &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans                                                  &trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp PLUS   &trans
-&trans  &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                                                  &trans  &kp DOLLAR       &kp PERCENT   &kp CARET  &kp EQUAL  &trans
-&trans  &trans         &trans            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp AMPERSAND    &kp ASTERISK  &kp BSLH   &kp GRAVE  &trans
-&trans  &trans         &trans            &trans                &trans                         &trans  &trans  &trans  &trans  &trans  &trans          &kp TILDE        &kp GRAVE     &kp PIPE   &trans     &trans
+&trans  &trans         &trans            &trans                &trans                                                                                    &trans           &trans        &trans     &trans     &trans
+&trans  &trans         &trans            &trans                &trans                 &trans                                                  &trans     &trans           &trans        &trans     &trans     &trans
+&trans  &kp SEMICOLON  &kp COLON         &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans                                                  &kp TILDE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp PLUS   &trans
+&trans  &kp MINUS      &kp UNDERSCORE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                                                  &kp PIPE   &kp DOLLAR       &kp PERCENT   &kp CARET  &kp EQUAL  &trans
+&trans  &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp AMPERSAND    &kp ASTERISK  &kp BSLH   &kp GRAVE  &trans
+&trans  &trans         &trans            &trans                &trans                         &trans  &trans  &trans  &trans  &trans  &trans             &trans           &trans        &trans     &trans     &trans
             >;
         };
     };
