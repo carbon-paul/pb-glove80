@@ -429,12 +429,12 @@
 
         navigation {
             bindings = <
-&trans  &trans  &trans        &trans            &trans                                                                                      &trans    &trans              &trans                &trans     &trans
-&trans  &trans  &trans        &trans            &trans             &trans                                                           &trans  &trans    &trans              &trans                &trans     &trans
-&trans  &trans  &trans        &kp LC(GRAVE)     &trans             &trans                                                           &trans  &trans    &kp C_AC_SCROLL_UP  &kp C_AC_SCROLL_DOWN  &trans     &trans
-&trans  &trans  &kp LC(LEFT)  &kp LC(TAB)       &kp LC(RIGHT)      &trans                                                           &trans  &kp LEFT  &kp DOWN            &kp UP_ARROW          &kp RIGHT  &trans
-&trans  &trans  &trans        &kp LG(LEFT)      &kp LG(RIGHT)      &trans  &trans  &trans  &trans  &trans  &trans       &trans      &trans  &kp HOME  &kp PAGE_DOWN       &kp PG_UP             &kp END    &trans
-&trans  &trans  &trans        &kp LA(LG(LEFT))  &kp LA(LG(RIGHT))          &trans  &trans  &trans  &trans  &kp K_PASTE  &kp K_COPY          &trans    &trans              &trans                &trans     &trans
+&trans  &trans  &trans  &trans  &trans                                                                           &trans    &trans         &trans        &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                           &trans  &trans    &trans         &trans        &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                           &trans  &trans    &trans         &trans        &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                           &trans  &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans      &trans  &kp HOME  &kp PAGE_DOWN  &kp PG_UP     &kp END    &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &kp K_PASTE  &kp K_COPY          &trans    &trans         &trans        &trans     &trans
             >;
         };
 
