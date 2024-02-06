@@ -347,7 +347,7 @@
 
         escape-combo {
             bindings = <&kp ESC>;
-            key-positions = <35 36 37 38>;
+            key-positions = <23 24 25 26>;
         };
 
         find-click {
@@ -399,6 +399,16 @@
             bindings = <&kp ENTER>;
             key-positions = <42 43>;
         };
+
+        backspace-word {
+            bindings = <&kp LA(BACKSPACE)>;
+            key-positions = <38 37 36>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <30 31>;
+        };
     };
 
     keymap {
@@ -406,12 +416,12 @@
 
         layer_Base {
             bindings = <
-&trans   &trans           &trans               &trans           &trans                                                                                                                  &trans    &trans       &kp C_VOLUME_UP      &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE
-&trans   &kp N1           &kp N2               &kp N3           &kp N4         &kp N5                                                                                          &kp N6   &kp N7    &kp N8       &kp N9               &kp N0             &kp EQUAL
-&trans   &kp Q            &ht LG(W) W          &kp E            &ht LG(R) R    &ht LG(T) T                                                                                     &kp Y    &kp U     &kp I        &kp O                &kp P              &kp SEMICOLON
-&kp ESC  &hml LEFT_ALT A  &hml LEFT_CONTROL S  &hml LEFT_GUI D  &lt 3 F        &lt 4 G                                                                                         &lt 4 H  &lt 3 J   &hmr LGUI K  &hmr LEFT_CONTROL L  &qt LALT SQT       &kp MINUS
-&trans   &ht Z LG(Z)      &ht LG(X) X          &ht LG(C) C      &ht LG(V) V    &ht LG(B) B  &caps_word      &trans         &trans  &trans  &trans               &trans         &kp N    &kp M     &kp COMMA    &kp DOT              &kp FSLH           &trans
-&trans   &kp LC(LEFT)     &kp LC(GRAVE)        &kp LC(TAB)      &kp LC(RIGHT)               &sk LEFT_SHIFT  &kp BACKSPACE  &trans  &trans  &mt LG(ENTER) ENTER  &qt TAB SPACE           &kp LEFT  &kp DOWN     &kp UP               &kp RIGHT          &trans
+&trans   &trans           &trans               &trans           &trans                                                                                                                   &trans    &trans       &kp C_VOLUME_UP      &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE
+&trans   &kp N1           &kp N2               &kp N3           &kp N4         &kp N5                                                                                           &kp N6   &kp N7    &kp N8       &kp N9               &kp N0             &kp EQUAL
+&trans   &kp Q            &ht LG(W) W          &kp E            &ht LG(R) R    &ht LG(T) T                                                                                      &kp Y    &kp U     &kp I        &kp O                &kp P              &kp SEMICOLON
+&kp ESC  &hml LEFT_ALT A  &hml LEFT_CONTROL S  &hml LEFT_GUI D  &lt 3 F        &lt 4 G                                                                                          &lt 4 H  &lt 3 J   &hmr LGUI K  &hmr LEFT_CONTROL L  &qt LALT SQT       &kp MINUS
+&trans   &ht LG(Z) Z      &ht LG(X) X          &ht LG(C) C      &ht LG(V) V    &ht LG(B) B  &caps_word      &trans         &trans   &trans  &trans               &trans         &kp N    &kp M     &kp COMMA    &kp DOT              &kp FSLH           &trans
+&trans   &kp LC(LEFT)     &kp LC(GRAVE)        &kp LC(TAB)      &kp LC(RIGHT)               &sk LEFT_SHIFT  &kp BACKSPACE  &kp DEL  &trans  &mt LG(ENTER) ENTER  &qt TAB SPACE           &kp LEFT  &kp DOWN     &kp UP               &kp RIGHT          &trans
             >;
         };
 
