@@ -309,20 +309,6 @@
     combos {
         compatible = "zmk,combos";
 
-        switch-tab-left {
-            bindings = <&kp LC(GRAVE)>;
-            key-positions = <49 47>;
-            layers = <0>;
-            require-prior-idle-ms = <150>;
-        };
-
-        switch-tab-right {
-            bindings = <&kp LC(TAB)>;
-            key-positions = <50 48>;
-            layers = <0>;
-            require-prior-idle-ms = <150>;
-        };
-
         magic_layer {
             bindings = <&magic 1 0>;
             key-positions = <68 65>;
@@ -332,17 +318,7 @@
 
         search-app {
             bindings = <&kp LC(SPACE)>;
-            key-positions = <38 41>;
-        };
-
-        space_left {
-            bindings = <&kp LC(LEFT)>;
-            key-positions = <48 49>;
-        };
-
-        space_right {
-            bindings = <&kp LC(RIGHT)>;
-            key-positions = <49 50>;
+            key-positions = <38 37>;
         };
 
         escape-combo {
@@ -352,42 +328,7 @@
 
         find-click {
             bindings = <&kp LS(LG(SPACE))>;
-            key-positions = <42 37>;
-        };
-
-        volume-up {
-            bindings = <&kp C_VOLUME_UP>;
-            key-positions = <28 40>;
-        };
-
-        volume-down {
-            bindings = <&kp C_VOLUME_DOWN>;
-            key-positions = <58 40>;
-        };
-
-        play-pause {
-            bindings = <&kp C_PLAY_PAUSE>;
-            key-positions = <58 28>;
-        };
-
-        goto-numbers-left {
-            bindings = <&sl 2>;
-            key-positions = <38 37>;
-        };
-
-        goto-numbers-right {
-            bindings = <&sl 2>;
-            key-positions = <41 42>;
-        };
-
-        goto-symbols-left {
-            bindings = <&sl 3>;
-            key-positions = <38 36>;
-        };
-
-        goto-symbols-right {
-            bindings = <&sl 3>;
-            key-positions = <41 43>;
+            key-positions = <42 41>;
         };
 
         backspace {
