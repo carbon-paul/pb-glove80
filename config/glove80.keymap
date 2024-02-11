@@ -465,7 +465,7 @@
 &trans   &kp Q            &ht LG(W) W          &kp E            &ht LG(R) R        &ht LG(T) T                                                                                   &kp Y                &kp U              &kp I            &kp O                &kp P              &trans
 &kp ESC  &hml LEFT_GUI A  &hml LEFT_CONTROL S  &hml LEFT_ALT D  &hml LEFT_SHIFT F  &ht LC(SPACE) G                                                                               &ht LS(LG(SPACE)) H  &hmr LEFT_SHIFT J  &hmr LEFT_ALT K  &hmr LEFT_CONTROL L  &hmr LEFT_GUI SQT  &trans
 &trans   &kp Z            &ht LG(X) X          &ht LG(C) C      &ht LG(V) V        &ht LG(B) B      &caps_word      &trans                &trans  &trans  &trans  &trans         &kp N                &kp M              &kp COMMA        &kp DOT              &kp SLASH          &trans
-&trans   &none            &none                &none            &none                               &sk LEFT_SHIFT  &hold_temp_layer 2 2  &trans  &trans  &sl 3   &qt TAB SPACE                       &none              &none            &none                &none              &trans
+&trans   &none            &none                &none            &none                               &sk LEFT_SHIFT  &hold_temp_layer 2 2  &to 4   &trans  &sl 3   &qt TAB SPACE                       &none              &none            &none                &none              &trans
             >;
         };
 
@@ -499,6 +499,17 @@
 &trans  &kp MINUS      &kp UNDERSCORE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL                                                  &kp PIPE   &kp DOLLAR       &kp PERCENT   &kp CARET      &kp QUESTION       &trans
 &trans  &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans     &trans  &trans  &trans  &trans  &trans  &trans  &kp GRAVE  &kp AMPERSAND    &kp ASTERISK  &kp BACKSLASH  &kp SLASH          &trans
 &trans  &trans         &trans            &trans                &trans                            &trans  &trans  &trans  &trans  &trans  &trans             &trans           &trans        &trans         &trans             &trans
+            >;
+        };
+
+        colemak-dh {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans     &trans   &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans     &trans   &trans    &trans
+&trans  &kp Q   &kp W   &kp F   &kp P   &kp B                                                   &kp J   &kp L   &kp U      &kp Y    &kp SQT   &trans
+&trans  &kp A   &kp R   &kp S   &kp T   &kp G                                                   &kp M   &kp N   &kp E      &kp I    &kp O     &trans
+&trans  &kp Z   &kp X   &kp C   &kp D   &kp V   &trans  &trans  &trans  &trans  &trans  &trans  &kp K   &kp H   &kp COMMA  &kp DOT  &kp FSLH  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans     &trans   &trans    &trans
             >;
         };
     };
