@@ -460,12 +460,12 @@
 
         layer_Base {
             bindings = <
-&trans   &trans           &trans               &trans           &trans                                                                                                                                &trans             &trans       &trans               &trans             &trans
-&trans   &kp N1           &kp N2               &kp N3           &kp N4             &kp N5                                                                                        &kp N6               &kp N7             &kp N8       &kp N9               &kp N0             &trans
-&trans   &kp Q            &ht LG(W) W          &kp E            &ht LG(R) R        &ht LG(T) T                                                                                   &kp Y                &kp U              &kp I        &kp O                &kp P              &trans
-&kp ESC  &hml LEFT_ALT A  &hml LEFT_CONTROL S  &hml LEFT_GUI D  &hml LEFT_SHIFT F  &ht LC(SPACE) G                                                                               &ht LS(LG(SPACE)) H  &hmr LEFT_SHIFT J  &hmr LGUI K  &hmr LEFT_CONTROL L  &hmr LEFT_ALT SQT  &trans
-&trans   &ht LG(Z) Z      &ht LG(X) X          &ht LG(C) C      &ht LG(V) V        &ht LG(B) B      &caps_word      &trans                &trans  &trans  &trans  &trans         &kp N                &kp M              &kp COMMA    &kp DOT              &kp SLASH          &trans
-&trans   &kp LC(LEFT)     &kp LC(GRAVE)        &kp LC(TAB)      &kp LC(RIGHT)                       &sk LEFT_SHIFT  &hold_temp_layer 2 2  &trans  &trans  &sl 3   &qt TAB SPACE                       &kp LEFT           &kp DOWN     &kp UP               &kp RIGHT          &trans
+&trans   &trans           &trans               &trans           &trans                                                                                                                                &trans             &trans           &trans               &trans             &trans
+&trans   &kp N1           &kp N2               &kp N3           &kp N4             &kp N5                                                                                        &kp N6               &kp N7             &kp N8           &kp N9               &kp N0             &trans
+&trans   &kp Q            &kp W                &kp E            &kp R              &kp T                                                                                         &kp Y                &kp U              &kp I            &kp O                &kp P              &trans
+&kp ESC  &hml LEFT_GUI A  &hml LEFT_CONTROL S  &hml LEFT_ALT D  &hml LEFT_SHIFT F  &ht LC(SPACE) G                                                                               &ht LS(LG(SPACE)) H  &hmr LEFT_SHIFT J  &hmr LEFT_ALT K  &hmr LEFT_CONTROL L  &hmr LEFT_GUI SQT  &trans
+&trans   &kp Z            &ht LG(X) X          &ht LG(C) C      &ht LG(V) V        &ht LG(B) B      &caps_word      &trans                &trans  &trans  &trans  &trans         &kp N                &kp M              &kp COMMA        &kp DOT              &kp SLASH          &trans
+&trans   &kp LC(LEFT)     &kp LC(GRAVE)        &kp LC(TAB)      &kp LC(RIGHT)                       &sk LEFT_SHIFT  &hold_temp_layer 2 2  &trans  &trans  &sl 3   &qt TAB SPACE                       &kp LEFT           &kp DOWN         &kp UP               &kp RIGHT          &trans
             >;
         };
 
