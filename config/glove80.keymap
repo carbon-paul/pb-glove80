@@ -365,13 +365,13 @@
         space-left {
             bindings = <&kp LC(LEFT)>;
             key-positions = <24 25>;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <400>;
         };
 
         space-right {
             bindings = <&kp LC(RIGHT)>;
             key-positions = <25 26>;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <400>;
         };
 
         tab-prev {
