@@ -199,7 +199,7 @@
             tapping-term-ms = <220>;
             quick-tap-ms = <150>;
             flavor = "tap-preferred";
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <500>;
         };
 
         hold_temp_layer: hold_temp_layer {
