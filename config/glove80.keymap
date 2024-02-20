@@ -344,7 +344,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <60 61>;
+            key-positions = <41 42>;
         };
 
         delete {
@@ -354,18 +354,18 @@
 
         capsword {
             bindings = <&caps_word>;
-            key-positions = <42 41>;
+            key-positions = <41 43>;
         };
 
         space-left {
             bindings = <&kp LC(LEFT)>;
-            key-positions = <24 25>;
+            key-positions = <35 37>;
             require-prior-idle-ms = <400>;
         };
 
         space-right {
             bindings = <&kp LC(RIGHT)>;
-            key-positions = <25 26>;
+            key-positions = <38 36>;
             require-prior-idle-ms = <400>;
         };
 
