@@ -405,7 +405,7 @@
         };
 
         paste {
-            bindings = <&kp LG(P)>;
+            bindings = <&kp LG(V)>;
             key-positions = <51 50>;
         };
 
@@ -442,12 +442,12 @@
 
         left {
             bindings = <
-&trans  &trans        &trans     &trans         &trans                                                                                  &trans        &trans        &trans        &trans        &trans
-&trans  &trans        &trans     &trans         &trans         &trans                                                   &trans          &trans        &trans        &trans        &trans        &trans
-&trans  &trans        &trans     &kp UP_ARROW   &trans         &trans                                                   &kp PERCENT     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON     &trans
-&trans  &kp HOME      &kp LEFT   &kp DOWN       &kp RIGHT      &kp END                                                  &kp DOLLAR      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-&trans  &kp LG(LEFT)  &kp PG_UP  &kp PAGE_DOWN  &kp LG(RIGHT)  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &kp UNDERSCORE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERIOD    &trans
-&trans  &trans        &trans     &trans         &trans                  &trans  &trans  &trans  &trans  &trans  &trans                  &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &trans     &trans         &trans                                                                                    &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &trans     &trans         &trans     &trans                                                         &trans          &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &trans     &kp UP_ARROW   &trans     &trans                                                         &kp PERCENT     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON     &trans
+&trans  &kp LG(LEFT)  &kp LEFT   &kp DOWN       &kp RIGHT  &kp LG(RIGHT)                                                  &kp DOLLAR      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+&trans  &kp HOME      &kp PG_UP  &kp PAGE_DOWN  &kp END    &trans         &trans  &trans  &trans  &trans  &trans  &trans  &kp UNDERSCORE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERIOD    &trans
+&trans  &trans        &trans     &trans         &trans                    &trans  &trans  &trans  &trans  &trans  &trans                  &trans        &trans        &trans        &trans        &trans
             >;
         };
 
