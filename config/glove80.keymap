@@ -250,6 +250,21 @@
             #binding-cells = <0>;
             bindings = <&out OUT_BLE &bt BT_SEL 3>;
         };
+
+        select_cur_line: select_cur_line {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LG(RIGHT)>,
+                <&macro_press>,
+                <&kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp LG(LEFT)>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT>;
+
+            label = "SELECT_CUR_LINE";
+        };
     };
 };
 
