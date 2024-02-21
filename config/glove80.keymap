@@ -398,6 +398,21 @@
             bindings = <&kp C_PLAY_PAUSE>;
             key-positions = <40 41>;
         };
+
+        copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <38 39>;
+        };
+
+        paste {
+            bindings = <&kp LG(P)>;
+            key-positions = <51 50>;
+        };
+
+        cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <27 26>;
+        };
     };
 
     keymap {
