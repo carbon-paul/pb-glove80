@@ -359,24 +359,24 @@
 
         space-left {
             bindings = <&kp LC(LEFT)>;
-            key-positions = <35 37>;
+            key-positions = <36 25>;
             require-prior-idle-ms = <400>;
         };
 
         space-right {
             bindings = <&kp LC(RIGHT)>;
-            key-positions = <38 36>;
+            key-positions = <38 25>;
             require-prior-idle-ms = <400>;
         };
 
         tab-prev {
             bindings = <&kp LC(GRAVE)>;
-            key-positions = <48 49>;
+            key-positions = <49 36>;
         };
 
         tab-next {
             bindings = <&kp LC(TAB)>;
-            key-positions = <50 49>;
+            key-positions = <49 38>;
         };
 
         delete-word {
@@ -401,17 +401,17 @@
 
         copy {
             bindings = <&kp LG(C)>;
-            key-positions = <38 39>;
+            key-positions = <48 49>;
         };
 
         paste {
             bindings = <&kp LG(V)>;
-            key-positions = <51 50>;
+            key-positions = <50 49>;
         };
 
         cut {
             bindings = <&kp LG(X)>;
-            key-positions = <27 26>;
+            key-positions = <48 47>;
         };
     };
 
