@@ -371,12 +371,12 @@
 
         tab-prev {
             bindings = <&kp LC(GRAVE)>;
-            key-positions = <49 36>;
+            key-positions = <48 37>;
         };
 
         tab-next {
             bindings = <&kp LC(TAB)>;
-            key-positions = <49 38>;
+            key-positions = <50 37>;
         };
 
         delete-word {
