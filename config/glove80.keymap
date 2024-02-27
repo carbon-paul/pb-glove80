@@ -153,7 +153,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HRM_HOLD_TAP_LEFT";
             flavor = "tap-preferred";
-            tapping-term-ms = <280>;
+            tapping-term-ms = <250>;
             quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             #binding-cells = <2>;
@@ -185,7 +185,7 @@
             quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             #binding-cells = <2>;
-            bindings = <&kp>, <&kp>;
+            bindings = <&sk>, <&kp>;
 
             hold-trigger-on-release;
         };
@@ -255,11 +255,11 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp LG(RIGHT)>,
+                <&kp LG(LEFT)>,
                 <&macro_press>,
                 <&kp LEFT_SHIFT>,
                 <&macro_tap>,
-                <&kp LG(LEFT)>,
+                <&kp LG(RIGHT)>,
                 <&macro_release>,
                 <&kp LEFT_SHIFT>;
 
@@ -428,6 +428,16 @@
             bindings = <&kp LG(X)>;
             key-positions = <48 47>;
         };
+
+        gui {
+            bindings = <&sk LEFT_GUI>;
+            key-positions = <69 74>;
+        };
+
+        select_cur_line {
+            bindings = <&select_cur_line>;
+            key-positions = <50 49 48>;
+        };
     };
 
     keymap {
@@ -435,12 +445,12 @@
 
         layer_Base {
             bindings = <
-&trans   &trans           &trans               &trans           &trans                                                                                                                                &trans             &trans           &trans               &trans             &trans
-&trans   &kp N1           &kp N2               &kp N3           &kp N4             &kp N5                                                                                        &kp N6               &kp N7             &kp N8           &kp N9               &kp N0             &trans
-&trans   &kp Q            &ht LG(W) W          &kp E            &ht LG(R) R        &ht LG(T) T                                                                                   &kp Y                &kp U              &kp I            &kp O                &kp P              &trans
-&kp ESC  &hml LEFT_GUI A  &hml LEFT_CONTROL S  &hml LEFT_ALT D  &hml LEFT_SHIFT F  &ht LC(SPACE) G                                                                               &ht LS(LG(SPACE)) H  &hmr LEFT_SHIFT J  &hmr LEFT_ALT K  &hmr LEFT_CONTROL L  &hmr LEFT_GUI SQT  &trans
-&trans   &kp Z            &ht LG(X) X          &ht LG(C) C      &ht LG(V) V        &ht LG(B) B      &caps_word      &trans                &trans  &trans  &trans  &trans         &kp N                &kp M              &kp COMMA        &kp DOT              &kp SLASH          &trans
-&trans   &none            &none                &none            &none                               &sk LEFT_SHIFT  &hold_temp_layer 2 2  &to 4   &trans  &sl 3   &qt TAB SPACE                       &none              &none            &none                &none              &trans
+&trans   &trans           &trans               &trans           &trans                                                                                                                                     &trans             &trans           &trans               &trans             &trans
+&trans   &kp N1           &kp N2               &kp N3           &kp N4             &kp N5                                                                                             &kp N6               &kp N7             &kp N8           &kp N9               &kp N0             &trans
+&trans   &kp Q            &ht LG(W) W          &kp E            &ht LG(R) R        &ht LG(T) T                                                                                        &kp Y                &kp U              &kp I            &kp O                &kp P              &trans
+&kp ESC  &hml LEFT_GUI A  &hml LEFT_CONTROL S  &hml LEFT_ALT D  &hml LEFT_SHIFT F  &ht LC(SPACE) G                                                                                    &ht LS(LG(SPACE)) H  &hmr LEFT_SHIFT J  &hmr LEFT_ALT K  &hmr LEFT_CONTROL L  &hmr LEFT_GUI SQT  &trans
+&trans   &kp Z            &ht LG(X) X          &ht LG(C) C      &ht LG(V) V        &ht LG(B) B      &caps_word      &trans                &trans  &trans  &trans  &trans              &kp N                &kp M              &kp COMMA        &kp DOT              &kp SLASH          &trans
+&trans   &none            &none                &none            &none                               &sk LEFT_SHIFT  &hold_temp_layer 2 2  &to 4   &trans  &sl 3   &qt LEFT_GUI SPACE                       &none              &none            &none                &none              &trans
             >;
         };
 
@@ -468,12 +478,12 @@
 
         right {
             bindings = <
-&trans  &trans         &trans            &trans                &trans                                                                                       &trans           &trans        &trans         &trans             &trans
-&trans  &trans         &trans            &trans                &trans                 &trans                                                     &trans     &trans           &trans        &trans         &trans             &trans
-&trans  &kp SEMICOLON  &kp COLON         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS                                                   &kp TILDE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH       &kp DOUBLE_QUOTES  &trans
-&trans  &kp MINUS      &kp UNDERSCORE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL                                                  &kp PIPE   &kp DOLLAR       &kp PERCENT   &kp CARET      &kp QUESTION       &trans
-&trans  &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans     &trans  &trans  &trans  &trans  &trans  &trans  &kp GRAVE  &kp AMPERSAND    &kp ASTERISK  &kp BACKSLASH  &kp SLASH          &trans
-&trans  &trans         &trans            &trans                &trans                            &trans  &trans  &trans  &trans  &trans  &trans             &trans           &trans        &trans         &trans             &trans
+&trans  &trans         &trans            &trans                &trans                                                                                             &trans           &trans        &trans         &trans             &trans
+&trans  &trans         &trans            &trans                &trans                 &trans                                                           &trans     &trans           &trans        &trans         &trans             &trans
+&trans  &kp SEMICOLON  &kp COLON         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS                                                         &kp TILDE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH       &kp DOUBLE_QUOTES  &trans
+&trans  &kp MINUS      &kp UNDERSCORE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL                                                        &kp PIPE   &kp DOLLAR       &kp PERCENT   &kp CARET      &kp QUESTION       &trans
+&trans  &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans     &trans     &trans     &trans  &trans  &trans  &trans  &kp GRAVE  &kp AMPERSAND    &kp ASTERISK  &kp BACKSLASH  &kp SLASH          &trans
+&trans  &trans         &trans            &trans                &trans                            &kp SPACE  &kp RIGHT  &trans  &trans  &trans  &trans             &trans           &trans        &trans         &trans             &trans
             >;
         };
 
