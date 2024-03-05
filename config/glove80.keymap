@@ -429,11 +429,6 @@
             key-positions = <48 47>;
         };
 
-        gui {
-            bindings = <&sk LEFT_GUI>;
-            key-positions = <69 74>;
-        };
-
         select_cur_line {
             bindings = <&select_cur_line>;
             key-positions = <50 49 48>;
@@ -441,7 +436,7 @@
 
         hyphen {
             bindings = <&kp MINUS>;
-            key-positions = <43 44>;
+            key-positions = <59 60>;
         };
     };
 
