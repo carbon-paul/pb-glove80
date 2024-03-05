@@ -25,11 +25,9 @@
 /* #define layers */
 
 #define LAYER_Base 0
-#define LAYER_Lower 1
-#define LAYER_Colemak 2
+#define LAYER_Magic 1
+#define LAYER_NumNav 2
 #define LAYER_Symbols 3
-#define LAYER_Magic 4
-#define LAYER_Apps 5
 
 /* #define for key positions */
 
@@ -448,7 +446,7 @@
 &trans   &trans           &trans               &trans           &trans                                                                                                                                     &trans             &trans              &trans                &trans              &trans
 &trans   &kp N1           &kp N2               &kp N3           &kp N4             &kp N5                                                                                             &kp N6               &kp N7             &kp N8              &kp N9                &kp N0              &trans
 &trans   &kp Q            &ht LG(W) W          &kp E            &ht LG(R) R        &ht LG(T) T                                                                                        &kp Y                &kp U              &kp I               &kp O                 &kp P               &trans
-&kp ESC  &lt 2 A          &hml LEFT_GUI S      &lt 2 D          &lt 3 F            &ht LC(SPACE) G                                                                                    &ht LS(LG(SPACE)) H  &lt 3 J            &lt 3 K             &hmr LEFT_GUI L       &kp SQT             &trans
+&kp ESC  &lt 2 A          &hml LEFT_GUI S      &lt 2 D          &lt 3 F            &ht LC(SPACE) G                                                                                    &ht LS(LG(SPACE)) H  &lt 3 J            &lt 2 K             &hmr LEFT_GUI L       &kp SQT             &trans
 &trans   &hml LEFT_GUI Z  &hml LEFT_CONTROL X  &hml LEFT_ALT C  &hml LEFT_SHIFT V  &ht LG(B) B      &caps_word      &trans  &trans  &trans  &trans                &trans              &kp N                &hmr LEFT_SHIFT M  &hmr LEFT_ALT COMMA &hmr LEFT_CONTROL DOT &hmr LEFT_GUI SLASH &trans
 &trans   &none            &none                &none            &none                               &sk LEFT_SHIFT  &sl 3   &none   &trans  &hold_temp_layer 2 2  &kp SPACE                                &none              &none               &none                 &none               &trans
             >;
