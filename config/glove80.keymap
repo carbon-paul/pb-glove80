@@ -469,12 +469,12 @@
 
         layer_Base {
             bindings = <
-&trans   &trans           &trans               &trans           &trans                                                                                                                                               &trans             &trans               &trans                 &trans               &trans
-&trans   &kp N1           &kp N2               &kp N3           &kp N4             &kp N5                                                                                                                    &kp N6  &kp N7             &kp N8               &kp N9                 &kp N0               &trans
-&trans   &kp Q            &kp W                &kp E            &kp R              &kp T                                                                                                                     &kp Y   &kp U              &kp I                &kp O                  &kp P                &trans
-&kp ESC  &lt 2 A          &lt 5 S              &lt 1 D          &lt 3 F            &kp G                                                                                                                     &kp H   &lt 3 J            &lt 1 K              &kp L                  &kp SQT              &trans
-&trans   &hml LEFT_GUI Z  &hml LEFT_CONTROL X  &hml LEFT_ALT C  &hml LEFT_SHIFT V  &kp B   &caps_word                          &trans            &trans  &trans  &trans                  &trans              &kp N   &hmr LEFT_SHIFT M  &hmr LEFT_ALT COMMA  &hmr LEFT_CONTROL DOT  &hmr LEFT_GUI SLASH  &trans
-&trans   &none            &none                &none            &none                      &ht_pref_hold LEFT_SHIFT BACKSPACE  &ht LEFT_GUI TAB  &none   &trans  &ht LEFT_CONTROL ENTER  &ht LEFT_GUI SPACE          &none              &none                &none                  &none                &trans
+&trans   &trans           &trans               &trans           &trans                                                                                                                                           &trans             &trans               &trans                 &trans               &trans
+&trans   &kp N1           &kp N2               &kp N3           &kp N4             &kp N5                                                                                                                &kp N6  &kp N7             &kp N8               &kp N9                 &kp N0               &trans
+&trans   &kp Q            &kp W                &kp E            &kp R              &kp T                                                                                                                 &kp Y   &kp U              &kp I                &kp O                  &kp P                &trans
+&kp ESC  &lt 2 A          &lt 5 S              &lt 1 D          &lt 3 F            &kp G                                                                                                                 &kp H   &lt 3 J            &lt 1 K              &kp L                  &kp SQT              &trans
+&trans   &hml LEFT_GUI Z  &hml LEFT_CONTROL X  &hml LEFT_ALT C  &hml LEFT_SHIFT V  &kp B   &caps_word                          &trans            &trans  &trans  &trans              &trans              &kp N   &hmr LEFT_SHIFT M  &hmr LEFT_ALT COMMA  &hmr LEFT_CONTROL DOT  &hmr LEFT_GUI SLASH  &trans
+&trans   &none            &none                &none            &none                      &ht_pref_hold LEFT_SHIFT BACKSPACE  &ht LEFT_GUI TAB  &none   &trans  &ht LEFT_ALT ENTER  &ht LEFT_GUI SPACE          &none              &none                &none                  &none                &trans
             >;
         };
 
