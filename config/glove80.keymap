@@ -371,7 +371,7 @@
 
         delete {
             bindings = <&kp DEL>;
-            key-positions = <38 37>;
+            key-positions = <38 39>;
         };
 
         capsword {
@@ -459,6 +459,11 @@
         open-app {
             bindings = <&kp LC(SPACE)>;
             key-positions = <37 42>;
+        };
+
+        left-tab {
+            bindings = <&kp TAB>;
+            key-positions = <38 37>;
         };
     };
 
