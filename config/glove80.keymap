@@ -433,7 +433,7 @@
 
         cut {
             bindings = <&kp LG(X)>;
-            key-positions = <48 47>;
+            key-positions = <48 50>;
         };
 
         select_cur_line {
