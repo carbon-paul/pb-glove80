@@ -401,11 +401,6 @@
             key-positions = <50 37>;
         };
 
-        delete-word {
-            bindings = <&kp LA(BACKSPACE)>;
-            key-positions = <36 37 38>;
-        };
-
         volume-up {
             bindings = <&kp C_VOLUME_UP>;
             key-positions = <28 29>;
