@@ -343,7 +343,7 @@
         compatible = "zmk,combos";
 
         magic_layer {
-            bindings = <&magic 3 0>;
+            bindings = <&magic 4 0>;
             key-positions = <68 65>;
             layers = <0>;
             require-prior-idle-ms = <200>;
