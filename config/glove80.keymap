@@ -443,11 +443,6 @@
             key-positions = <50 49 48>;
         };
 
-        hyphen {
-            bindings = <&kp MINUS>;
-            key-positions = <59 60>;
-        };
-
         goto-numbers {
             bindings = <&tog 1>;
             key-positions = <70 73>;
