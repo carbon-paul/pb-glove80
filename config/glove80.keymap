@@ -371,8 +371,8 @@
             key-positions = <42 43>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
+        hyphen {
+            bindings = <&kp MINUS>;
             key-positions = <41 42>;
         };
 
